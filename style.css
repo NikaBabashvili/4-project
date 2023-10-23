@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    }
+
+p{
+    font-family:'Space Mono';
+   
+}
+
+    #maincontent{
+        position: relative;
+        background-color: white;
+        width: 750px;
+        height: 400px;
+        top: 150px;
+        left: 330px;
+        border-radius: 18px;
+    }
+
+    #bill{
+        position: absolute;
+        left: 5%;
+        top: 10%;
+    }
+
+    #input{
+        position: absolute;
+        width: 290px;
+        height: 45px;
+        left: 5%;
+        top: 18%;
+        border-radius: 5px ;
+        border: 2px solid hsl(172, 67%, 45%);
+        text-align: center;
+        font-size: 25px;
+        color:hsl(183, 100%, 15%) ;
+    }
+
+#dollar{
+    position: absolute;
+    left: 6%;
+    top: 22%;
+
+}
+
+    #tip{
+        position: absolute;
+        left:5%;
+        top: 36%;
+    }
+
+    #bar {
+        position: relative;
+        width: 310px;
+        height: 100px;
+        left: 7%;
+        top: 40%;
+    }
+    
+    #num1, #num2, #num3, #num4, #num5{
+        
+        display: inline-block;
+        margin-right:35px;
+        scale: 1.5;
+        width: 60px;
+        height: 25px;
+        background-color: hsl(183, 100%, 15%);
+        margin-top: 20px;
+        border-radius: 3px;
+        text-align: center;
+        color: white;
+        cursor: pointer;
+        
+    }
+
+    #num1:hover, #num2:hover, #num3:hover, #num4:hover, #num5:hover{
+        background-color:hsl(172, 67%, 45%) ;
+    }
+
+    #num6{
+        position: absolute;
+        display: inline-block;
+        margin-right: 10px;
+        text-align: center;
+        scale: 1.5;
+        width: 60px;
+        height: 25px;
+        border-radius: 3px;
+        top: 65px;
+        left:198px;
+        border: 2px solid hsl(172, 67%, 45%);
+        
+    }
+
+    #people{
+        position: absolute;
+        left: 5%;
+        top: 75%;
+        font-size: 10px;
+        font-weight: 700;
+    }
+
+    #input2{
+        position: absolute;
+        left: 5%;
+        top: 80%;
+        width: 290px;
+        height: 38px;
+        border-radius:5px ;
+        border: 2px solid hsl(172, 67%, 45%);
+        text-align: center;
+        color: hsl(183, 100%, 15%);
+        font-size: 21px;
+    }
+
+    #person {
+        position: absolute;
+        left: 6%;
+        top: 82%;
+        
+        }
+
+        #eror{
+            position: absolute;
+            left: 21%;
+            top: 75%;
+            font-size: 11px;
+            width: 170px;
+            font-weight: 700;
+            
+        }
+
+        #total{
+            position: absolute;
+            width: 45%;
+            height: 85%;
+            background-color: hsl(183, 100%, 15%);
+            left: 50%;
+            top: 7%;
+            border-radius: 13px;
+        }
+
+        #text1{
+            position: absolute;
+            left: 12%;
+            font-weight: 700;
+            top: 15%;
+            color: white;
+        }
+        #text2{
+            position: absolute;
+            left: 12%;
+            font-weight: 400;
+            top: 22%;
+            font-size: 13px;
+            color: rgb(193, 189, 189);
+        }
+        #text3{
+            position: absolute;
+            left: 48%;
+            font-size: 40px;
+            font-weight: 700;
+            top: 12%;
+            color: hsl(172, 67%, 45%);
+            width: 150px;
+            text-align: end;
+            overflow: hidden;
+        }
+        #Calculate{
+            position: absolute;
+            left: 12%;
+            width: 270px;
+            height: 40px;
+            color: hsl(183, 100%, 15%);
+            background-color:hsl(172, 67%, 45%) ;
+            top: 80%;
+            font-size: medium;
+            font-weight: 700;
+            cursor: pointer;
+        }
+
+        #reset{
+            position: absolute;
+            left: 12%;
+            width: 270px;
+            height: 40px;
+            color: hsl(183, 100%, 15%);
+            background-color:hsl(172, 67%, 45%) ;
+            top: 65%;
+            font-size: medium;
+            font-weight: 700;
+            cursor: pointer;
+        }
+
+        #text4{
+            position: absolute;
+            left: 12%;
+            font-weight: 700;
+            top: 36%;
+            color: white;
+        }
+        #text5{
+            position: absolute;
+            left: 12%;
+            font-weight: 400;
+            top: 44%;
+            font-size: 13px;
+            color: rgb(193, 189, 189);
+        }
+        #text6{
+            position: absolute;
+            left: 48%;
+            font-size: 40px;
+            font-weight: 700;
+            top: 33%;
+            color: hsl(172, 67%, 45%);
+            width: 150px;
+            text-align: end;
+            overflow: hidden;
+        }
+
+        #num6::placeholder{
+            font-size: xx-small;
+            font-weight: 600;
+        }
